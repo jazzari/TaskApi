@@ -21,7 +21,7 @@ To show a particular task in Postman use:
 
 To create a task in Postman use:
 **POST http://localhost:3000/tasks**
-And in Body/raw complete with:
+and in Body/raw complete with:
 {"task": {
     "title": "Nueva tarea 5",
     "description": "Realizar una nueva tarea 5",
@@ -31,7 +31,7 @@ And in Body/raw complete with:
 
 To update a task in Postman use:
 **PUT http://localhost:3000/tasks/2**
-And in Body/raw complete with:
+and in Body/raw complete with:
 {"task": 
     {"completed": true }
 }
