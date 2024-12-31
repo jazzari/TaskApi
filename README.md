@@ -3,7 +3,7 @@
 ## TaskApi
 Api to create task with a title, description and completed (boolean) fields. 
 
-### 
+### Rails version
 Ruby version 3.1.3
 Rails version 7.0.8
 Database: SQLite 
