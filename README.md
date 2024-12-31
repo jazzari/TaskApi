@@ -3,14 +3,19 @@
 ## TaskApi
 Api to create task with a title, description and completed (boolean) fields. 
 
+### 
+Ruby version 3.1.3
+Rails version 7.0.8
+Database: SQLite 
+
 ### Run test
 To run tests run: **bundle exec rpsec**
 
 ### To try the endpoints
-To try the endpoints first enter Rails console and populate the database:
+To try the endpoints first populate the database:
 **rails db:seed**
 
-Then use the terminal to start the server
+Start the server:
 **rails server**
 
 To list all task in Postman use:
