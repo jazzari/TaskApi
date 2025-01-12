@@ -68,7 +68,6 @@ RSpec.describe TasksController do
       last = Task.last
 
       get "/tasks/#{last.id}" 
-      #binding.pry
       expect(json_data[:type]).to eq('task')
       expect(json_data[:attributes]).to eq(
         id: last.id,
